@@ -8,6 +8,7 @@ body {
   height: 100vh;
   background-color: rgb(208, 208, 208);
   border: 1px solid #000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #card {
@@ -25,58 +26,58 @@ body {
 }
 
 #header {
-    border-bottom: 1px solid  rgb(208, 208, 208);
     background-color: blue;
     border-radius: 10px 10px 0 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #header h1 {
     text-align: center;
     font-size: 23px;
-    color: black;
     padding: 10px 0;
     color: white;
 }
 
 #personal-info {
     width: 100%;
-    margin: 20px 0;
+    padding: 20px 0;
 }
 
 #avatar {
     display: inline-block;
     width: 100px;
-    /* height: 130px; */
-    background-color: white;
+    height: 130px;
     border: 2px solid rgb(14, 130, 6);
     background-color: rgb(208, 208, 208);
     margin-left: 20px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#avatar:hover {
+    background-color: rgb(100, 100, 100);
+    font-size: 18px;
 }
 
 #avatar p {
     text-align: center;
-    padding: 55px 0;
+    /* padding: 55px 0; */
+    line-height: 130px;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
 }
 
 #details {
     display: inline-block;
-    text-align: left;
     color: rgb(0, 0, 0);
     margin-left: 30px;
 }
 
 #details p {
     margin-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
 }
 
 .blue-p {
     color: blue;
+    font-weight: 700;
 }
 
 #document-info {
@@ -90,5 +91,4 @@ body {
 #document-info p {
     text-align: right;
     margin: 0 20px 0 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
